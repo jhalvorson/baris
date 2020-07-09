@@ -1,7 +1,9 @@
 {
   "name": "baris",
   "description": "Runs the git clean command made famous by Baris",
-  "bin": "index.js",
+  "bin": {
+    "baris": "./index.js"
+  },
   "version": "0.0.5",
   "license": "MIT",
   "dependencies": {
